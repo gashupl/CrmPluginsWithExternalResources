@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "FooCrmService"
+  },
+  "hostingPlanName": {
+    "value": "Foo.AppServicePlan"
+  },
+  "siteLocation": {
+    "value": "North Europe"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "ed293573-842e-4ebf-8f0b-40cc98bd776a"
+  },
+  "resourceGroup": {
+    "value": "Foo.ResourceGroup"
+  }
+}

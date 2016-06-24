@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foo.Crm.Plugins", "Foo.Crm.Plugins\Foo.Crm.Plugins.csproj", "{DF40AA21-7656-4724-9C25-5F451B907C53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foo.Crm.External", "Foo.Crm.External\Foo.Crm.External.csproj", "{7CDA4F07-3DD4-40C8-920A-C298F334F86E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foo.Crm.Plugins.Merged", "Foo.Crm.Plugins.Merged\Foo.Crm.Plugins.Merged.csproj", "{2C1AD1E7-4D0F-438C-84CA-3E7651AD06C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foo.Crm.Plugins.ILMerged", "Foo.Crm.Plugins.ILMerged\Foo.Crm.Plugins.ILMerged.csproj", "{CA2DE034-344E-464A-8B16-04555AF1EC21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foo.Crm.Services.WebApi", "Foo.Crm.Services.WebApi\Foo.Crm.Services.WebApi.csproj", "{E02DEE1E-6C2A-4312-9C19-E4571237A0A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foo.Crm.Services.WebApi.DeploymentTest", "Foo.Crm.Services.WebApi.DeploymentTest\Foo.Crm.Services.WebApi.DeploymentTest.csproj", "{2B688BEF-861E-4725-8C8A-1CD666ECBBA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foo.Crm.Plugins.WebApiIntegrated", "Foo.Crm.Plugins.WebApiIntegrated\Foo.Crm.Plugins.WebApiIntegrated.csproj", "{B5270621-11C5-4872-A766-476FF42C0131}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF40AA21-7656-4724-9C25-5F451B907C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF40AA21-7656-4724-9C25-5F451B907C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF40AA21-7656-4724-9C25-5F451B907C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF40AA21-7656-4724-9C25-5F451B907C53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CDA4F07-3DD4-40C8-920A-C298F334F86E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CDA4F07-3DD4-40C8-920A-C298F334F86E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CDA4F07-3DD4-40C8-920A-C298F334F86E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CDA4F07-3DD4-40C8-920A-C298F334F86E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C1AD1E7-4D0F-438C-84CA-3E7651AD06C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C1AD1E7-4D0F-438C-84CA-3E7651AD06C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C1AD1E7-4D0F-438C-84CA-3E7651AD06C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C1AD1E7-4D0F-438C-84CA-3E7651AD06C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA2DE034-344E-464A-8B16-04555AF1EC21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA2DE034-344E-464A-8B16-04555AF1EC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA2DE034-344E-464A-8B16-04555AF1EC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA2DE034-344E-464A-8B16-04555AF1EC21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E02DEE1E-6C2A-4312-9C19-E4571237A0A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E02DEE1E-6C2A-4312-9C19-E4571237A0A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E02DEE1E-6C2A-4312-9C19-E4571237A0A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E02DEE1E-6C2A-4312-9C19-E4571237A0A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B688BEF-861E-4725-8C8A-1CD666ECBBA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B688BEF-861E-4725-8C8A-1CD666ECBBA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B688BEF-861E-4725-8C8A-1CD666ECBBA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B688BEF-861E-4725-8C8A-1CD666ECBBA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5270621-11C5-4872-A766-476FF42C0131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5270621-11C5-4872-A766-476FF42C0131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5270621-11C5-4872-A766-476FF42C0131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5270621-11C5-4872-A766-476FF42C0131}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
